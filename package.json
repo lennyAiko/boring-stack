@@ -1,6 +1,6 @@
 {
   "name": "boring-stack",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "private": "true",
   "description": "The Boring JavaScript Stack 🥱 - an opinionated project starter for fullstack JavaScript",
   "scripts": {
@@ -28,8 +28,7 @@
     "prettier": "2.8.8"
   },
   "workspaces": [
-    "packages/*",
-    "templates/*"
+    "packages/*"
   ],
   "lint-staged": {
     "**/*": "prettier --config ./.prettierrc.js --write --ignore-unknown"
